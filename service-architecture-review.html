@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Well-Architected Architecture Review | Satellite Tech</title>
+  
+  <meta name="description" content="In-depth Well-Architected review across 5 core pillars: Security, Reliability, Performance, Cost, and Operational Excellence. Uncover latent risks and optimize cloud posture.">
+  <meta property="og:title" content="Well-Architected Architecture Review | Satellite Tech">
+  <meta property="og:description" content="Comprehensive architectural evaluation benchmarked against AWS, Azure, and Google Cloud Well-Architected frameworks.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://satellite-tech.in/service-architecture-review.html">
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand" aria-label="Satellite Tech Home">
+        <img src="images/logo.png" alt="Satellite Tech Logo" class="navbar__logo" width="210" height="42">
+      </a>
+      
+      <nav class="navbar__menu" id="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="navbar__link">Home</a>
+        <a href="about.html" class="navbar__link">About</a>
+        <a href="services.html" class="navbar__link active">Services</a>
+        <a href="contact.html" class="navbar__link">Contact</a>
+      </nav>
+
+      
+    </div>
+  </header>
+
+  <main>
+    <!-- BREADCRUMBS & HERO -->
+    <section class="hero service-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumbs__separator">/</span>
+          <a href="services.html">Services</a>
+          <span class="breadcrumbs__separator">/</span>
+          <span class="breadcrumbs__current">Well-Architected Architecture Review</span>
+        </nav>
+
+        <div class="service-hero__content-grid">
+          <div class="service-hero__header">
+            <div class="section-tag">Enterprise Architecture Review</div>
+            <h1 class="section-title">Well-Architected Architecture Review</h1>
+            <p class="section-description">
+              Deep-dive evaluation of your production workloads benchmarked against recognized industry frameworks. We uncover hidden security exposures, single points of failure, scalability bottlenecks, and cost leaks before they impact your customers.
+            </p>
+          </div>
+
+          <div class="service-hero__visual">
+            <img 
+              src="images/architecture-review-hero.jpg" 
+              alt="Well-Architected Architecture Review Illustration" 
+              class="service-hero__img" 
+              id="service-architecture-hero-image"
+              style="border-radius: 12px; box-shadow: var(--shadow-md, 0 4px 16px rgba(0,0,0,0.08));"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT & SIDEBAR LAYOUT -->
+    <section class="section">
+      <div class="container">
+        <div class="service-layout">
+          <!-- MAIN BODY -->
+          <div class="service-body">
+            <h3 style="margin-top: 0;">The Five Review Pillars</h3>
+            <div class="service-capabilities-grid">
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <h4 class="service-capability-card__title">1. Security Posture</h4>
+                <p class="service-capability-card__desc">
+                  Data-at-rest and in-transit encryption, IAM privilege segregation, perimeter defense (WAF/DDoS), security group hygiene, and secret management audits.
+                </p>
+              </div>
+
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                </div>
+                <h4 class="service-capability-card__title">2. Reliability &amp; Disaster Recovery</h4>
+                <p class="service-capability-card__desc">
+                  Fault tolerance across availability zones, distributed backup validation, automated recovery mechanisms, and RTO/RPO threshold verifications.
+                </p>
+              </div>
+
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                </div>
+                <h4 class="service-capability-card__title">3. Performance Efficiency</h4>
+                <p class="service-capability-card__desc">
+                  Selecting optimal compute and storage architectures, database indexing strategies, CDN edge caching, and auto-scaling response latencies.
+                </p>
+              </div>
+
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                </div>
+                <h4 class="service-capability-card__title">4. Cost Optimization &amp; FinOps</h4>
+                <p class="service-capability-card__desc">
+                  Eliminating zombie compute instances, implementing appropriate pricing models (Reserved, Savings Plans), and establishing tag-based departmental attribution.
+                </p>
+              </div>
+
+              <div class="service-capability-card" style="grid-column: 1 / -1;">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                </div>
+                <h4 class="service-capability-card__title">5. Operational Excellence</h4>
+                <p class="service-capability-card__desc">
+                  Declarative release practices, infrastructure telemetry, automated alerting with actionable runbooks, and post-incident root-cause analysis processes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- SIDEBAR -->
+          <aside class="service-sidebar">
+            <div class="service-sidebar-card">
+              <!-- OTHER SERVICES SWITCHER -->
+                <div class="other-services-nav__title">Explore Other Services</div>
+                <div class="other-services-list">
+                  <a href="service-cloud-solutions.html" class="other-services-link">
+                    <span>Cloud Solutions &amp; Optimization</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-cloud-migration.html" class="other-services-link">
+                    <span>Cloud Migration &amp; Enablement</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-architecture-review.html" class="other-services-link is-active">
+                    <span>Architecture Review</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-iot-solutions.html" class="other-services-link">
+                    <span>Integrated IoT Solutions</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-serverless.html" class="other-services-link">
+                    <span>Serverless Implementations</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-networking-development.html" class="other-services-link">
+                    <span>Networking &amp; Development</span>
+                    <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="images/logo.png" alt="Satellite Tech Logo" class="footer__logo" width="220" height="44">
+          <p class="footer__bio">
+            Satellite Tech provides Cloud, DevOps and IoT solutions focused on scalability, reliability, security and cost efficiency.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Services</h4>
+          <ul class="footer__links">
+            <li><a href="service-cloud-solutions.html" class="footer__link">Cloud Solutions &amp; Optimization</a></li>
+            <li><a href="service-cloud-migration.html" class="footer__link">Cloud Migration &amp; Enablement</a></li>
+            <li><a href="service-architecture-review.html" class="footer__link">Architecture Review</a></li>
+            <li><a href="service-iot-solutions.html" class="footer__link">Integrated IoT Solutions</a></li>
+            <li><a href="service-serverless.html" class="footer__link">Serverless Implementations</a></li>
+            <li><a href="service-networking-development.html" class="footer__link">Networking &amp; Development</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Contact</h4>
+          <div class="footer__contact-item">
+            <span>Plot No. 2802/D, 3rd Phase, GIDC, Umbergaon, Gujarat — India</span>
+          </div>
+          <div class="footer__contact-item">
+            <a href="mailto:admin@satellite-tech.in" class="footer__link">admin@satellite-tech.in</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div>&copy; <span id="current-year">2026</span> Satellite Tech. All Rights Reserved.</div>
+        <div>
+          Technology Engineering &bull; USA &bull; UK &bull; Netherlands &bull; Germany &bull; India
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>

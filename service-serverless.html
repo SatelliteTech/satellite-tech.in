@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serverless Implementations | Satellite Tech</title>
+  
+  <meta name="description" content="Build scalable, cost-efficient event-driven systems with serverless architectures. AWS Lambda, Google Cloud Functions, EventBridge, and DynamoDB solutions.">
+  <meta property="og:title" content="Serverless Implementations | Satellite Tech">
+  <meta property="og:description" content="Build scalable event-driven applications using modern serverless architecture that scales from zero with microsecond response.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://satellite-tech.in/service-serverless.html">
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__brand" aria-label="Satellite Tech Home">
+        <img src="images/logo.png" alt="Satellite Tech Logo" class="navbar__logo" width="210" height="42">
+      </a>
+      
+      <nav class="navbar__menu" id="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="navbar__link">Home</a>
+        <a href="about.html" class="navbar__link">About</a>
+        <a href="services.html" class="navbar__link active">Services</a>
+        <a href="contact.html" class="navbar__link">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="contact.html?service=serverless" class="btn btn-primary">Talk to an Expert</a>
+        <button class="navbar__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span class="navbar__toggle-bar"></span>
+          <span class="navbar__toggle-bar"></span>
+          <span class="navbar__toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- BREADCRUMBS & HERO -->
+    <section class="hero service-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumbs__separator">/</span>
+          <a href="services.html">Services</a>
+          <span class="breadcrumbs__separator">/</span>
+          <span class="breadcrumbs__current">Serverless Implementations</span>
+        </nav>
+
+        <div class="service-hero__content-grid">
+          <div class="service-hero__header">
+            <div class="section-tag">Event-Driven Architecture</div>
+            <h1 class="section-title">Serverless Implementations</h1>
+            <p class="section-description">
+              Build lightweight, hyper-scalable applications that run on demand without maintaining static virtual machines or paying for idle compute cycles. We architect decoupled, event-driven pipelines engineered for instant scalability and resilient failover.
+            </p>
+          </div>
+
+          <div class="service-hero__visual">
+            <img 
+              src="images/serverless-hero.jpg" 
+              alt="Serverless Implementations Illustration" 
+              class="service-hero__img" 
+              id="service-serverless-hero-image"
+              style="border-radius: 12px; box-shadow: var(--shadow-md, 0 4px 16px rgba(0,0,0,0.08));"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT & SIDEBAR LAYOUT -->
+    <section class="section">
+      <div class="container">
+        <div class="service-layout">
+          <!-- MAIN BODY -->
+          <div class="service-body">
+            <h3 style="margin-top: 0;">Serverless Specializations</h3>
+            <div class="service-capabilities-grid">
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                </div>
+                <h4 class="service-capability-card__title">Function-as-a-Service (FaaS)</h4>
+                <p class="service-capability-card__desc">
+                  Microsecond execution handlers written in Node.js, Python, or Go deployed to AWS Lambda, Cloud Functions, and Cloudflare Workers.
+                </p>
+              </div>
+
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+                </div>
+                <h4 class="service-capability-card__title">Event-Driven Message Buses</h4>
+                <p class="service-capability-card__desc">
+                  Asynchronous message routing via EventBridge and Cloud Pub/Sub, guaranteeing loose coupling, schema validation, and dead-letter queue (DLQ) containment.
+                </p>
+              </div>
+
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                </div>
+                <h4 class="service-capability-card__title">Serverless Databases &amp; Caching</h4>
+                <p class="service-capability-card__desc">
+                  Scalable key-value and relational persistence using Amazon DynamoDB, Aurora Serverless v2, Firestore, and Upstash Redis.
+                </p>
+              </div>
+
+              <div class="service-capability-card">
+                <div class="service-capability-card__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                </div>
+                <h4 class="service-capability-card__title">Distributed Tracing &amp; Observability</h4>
+                <p class="service-capability-card__desc">
+                  End-to-end correlation tracking across asynchronous boundaries using AWS X-Ray, OpenTelemetry, and structured JSON telemetry logs.
+                </p>
+              </div>
+            </div>
+
+            <h3>Key Engineering Deliverables</h3>
+            <ul class="service-deliverables-list">
+              <li class="service-deliverable-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Serverless IaC Templates:</strong> Version-controlled Serverless Framework, SST, or AWS SAM templates with isolated staging and production stages.</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>API Gateway &amp; Authorizers:</strong> Robust OpenAPI specifications, token-based JWT authorizers, rate limiting, and CORS configuration.</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Dead-Letter Queue (DLQ) &amp; Self-Healing:</strong> Automated retry policies, alert triggers for unprocessable poison messages, and redrive scripts.</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Cold-Start Optimization Report:</strong> Benchmark analysis verifying sub-50ms execution times and optimal memory-to-CPU allocations.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- SIDEBAR -->
+          <aside class="service-sidebar">
+            <div class="service-sidebar-card">
+              <!-- OTHER SERVICES SWITCHER -->
+                <div class="other-services-nav__title">Explore Other Services</div>
+                <div class="other-services-list">
+                  <a href="service-cloud-solutions.html" class="other-services-link">
+                    <span>Cloud Solutions &amp; Optimization</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-cloud-migration.html" class="other-services-link">
+                    <span>Cloud Migration &amp; Enablement</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-architecture-review.html" class="other-services-link">
+                    <span>Architecture Review</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-iot-solutions.html" class="other-services-link">
+                    <span>Integrated IoT Solutions</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-serverless.html" class="other-services-link is-active">
+                    <span>Serverless Implementations</span>
+                    <span>&rarr;</span>
+                  </a>
+                  <a href="service-networking-development.html" class="other-services-link">
+                    <span>Networking &amp; Development</span>
+                    <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="images/logo.png" alt="Satellite Tech Logo" class="footer__logo" width="220" height="44">
+          <p class="footer__bio">
+            Satellite Tech provides Cloud, DevOps and IoT solutions focused on scalability, reliability, security and cost efficiency.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Services</h4>
+          <ul class="footer__links">
+            <li><a href="service-cloud-solutions.html" class="footer__link">Cloud Solutions &amp; Optimization</a></li>
+            <li><a href="service-cloud-migration.html" class="footer__link">Cloud Migration &amp; Enablement</a></li>
+            <li><a href="service-architecture-review.html" class="footer__link">Architecture Review</a></li>
+            <li><a href="service-iot-solutions.html" class="footer__link">Integrated IoT Solutions</a></li>
+            <li><a href="service-serverless.html" class="footer__link">Serverless Implementations</a></li>
+            <li><a href="service-networking-development.html" class="footer__link">Networking &amp; Development</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Contact</h4>
+          <div class="footer__contact-item">
+            <span>Plot No. 2802/D, 3rd Phase, GIDC, Umbergaon, Gujarat — India</span>
+          </div>
+          <div class="footer__contact-item">
+            <a href="mailto:admin@satellite-tech.in" class="footer__link">admin@satellite-tech.in</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div>&copy; <span id="current-year">2026</span> Satellite Tech. All Rights Reserved.</div>
+        <div>
+          Technology Engineering &bull; USA &bull; UK &bull; Netherlands &bull; Germany &bull; India
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
