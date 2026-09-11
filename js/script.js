@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
       contactParam: 'iot-solutions',
       desc: 'End-to-end connected IoT ecosystems spanning hardware, firmware, edge gateways, secure cloud ingress, and real-time operational telemetry. We empower organizations to digitize operational assets and transform real-world signals into actionable business intelligence.',
       highlights: [
-        'IoT Gateway Hardware selection, configuration & deployment',
+        'Hardware selection, configuration & deployment',
         'Embedded firmware development & edge sensor interfacing',
         'Secure Cloud-IoT ingestion pipelines (MQTT, WebSockets, HTTPS)',
         'Live telemetry dashboards, anomaly alerts & predictive analytics'
